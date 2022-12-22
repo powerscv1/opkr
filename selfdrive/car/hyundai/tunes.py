@@ -36,7 +36,7 @@ def set_long_tune(tune, name):
     tune.kpBP = [0.,0.56, 4., 9., 17., 23., 31.]
     tune.kpV = [0.1,0.8, 1.1, 1.0, 0.9, 0.75, 0.65]
     tune.kiBP = [0., 4., 9., 17., 23., 31.]
-    tune.kiV = [0.27, 0.24, 0.23, 0.2, 0.17, 0.15]
+    tune.kiV = [0.2, 0.24, 0.23, 0.2, 0.17, 0.15]
     tune.deadzoneBP = [0., 4.]
     tune.deadzoneV = [0., 0.1]
     tune.kdBP = [0., 4., 9., 17., 23., 31.]
