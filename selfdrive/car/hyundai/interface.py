@@ -72,10 +72,10 @@ class CarInterface(CarInterfaceBase):
     set_long_tune(ret.longitudinalTuning, LongTunes.OPKR)
 
     ret.stoppingControl = False
-    ret.vEgoStopping = 0.6  # 1.0, 0.5
-    ret.vEgoStarting = 0.3  # needs to be >= vEgoStopping to avoid state transition oscillation
+    ret.vEgoStopping = 0.4  # 1.0, 0.5
+    ret.vEgoStarting = 0.5  # needs to be >= vEgoStopping to avoid state transition oscillation
     ret.stopAccel = -1.0 # 0.0, -0.5    
-    ret.stoppingDecelRate = 0.9 # 0.8, 0.2  # brake_travel/s while trying to stop
+    ret.stoppingDecelRate = 0.7 # 0.8, 0.2  # brake_travel/s while trying to stop
     
     ret.longitudinalActuatorDelayLowerBound = 1.0
     ret.longitudinalActuatorDelayUpperBound = 1.0
